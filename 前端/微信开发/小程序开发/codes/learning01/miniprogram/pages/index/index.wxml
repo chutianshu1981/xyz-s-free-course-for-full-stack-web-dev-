@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view>
+  <label>{{helloStr}}</label>
+  
+  <label>{{hiStr}}</label>
+  <button bindtap="clickBtn">打招呼</button>
+</view>
