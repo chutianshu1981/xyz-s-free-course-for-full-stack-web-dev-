@@ -2,7 +2,7 @@
 
 > 本科配套代码
 
-> [learning01]()
+> [learning01](https://gitee.com/chutianshu1981/xyz-s-free-course-for-full-stack-web-dev/tree/main/%E5%89%8D%E7%AB%AF/%E5%BE%AE%E4%BF%A1%E5%BC%80%E5%8F%91/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91/codes/learning01)
 
 ## 1. 默认小程序模板
 
