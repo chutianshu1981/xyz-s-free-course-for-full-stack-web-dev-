@@ -10,7 +10,7 @@ NuShell 是使用 Rust 语言编写的跨平台、开源 Shell 程序，截止�
 
 个人觉得其最突出的特色：
 
-* 夸平台，windows/linux/mac 都可用
+* 跨平台，windows/linux/mac 都可用
 * 命令返回结果结构化，一般都可以表示为二维表；
 * 命令可以方便地结合类 sql 语句，学习代价很低
 
