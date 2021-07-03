@@ -66,12 +66,15 @@ TODO: 实现最简小程序 —— 程序打开，在页面中显示 “Hello wo
 
 > 注意：
 >
-> 如果 ts 不能通过编译按钮自动编译为　js ， 则可以调出控制台，输入命令：  npm run tsc
+> 1. 如果 ts 不能通过编译按钮自动编译为　js ， 则可以调出控制台，输入命令：  npm run tsc
 >
->这个对应的是在 package.json 中的 script 设置: 
+> 这个对应的是在 package.json 中的 script 设置: 
 ``` json
 "tsc": "node ./node_modules/typescript/lib/tsc.js"
 ```
+> 2. 执行上面的命令需要 node_modules ，而一般的 .gitignore 中会排除该文件夹，将这个库文件夹上传到 git 上也不合适，如果项目中是从 git 上拉下来的，一般会缺少该文件夹，导致上面的命令不饿能运行
+> 3. 解决方案，在 package.json 所在文件夹运行命令： npm install  ；会自动生成 node_modules 文件夹，并下载补全所需的前端库
+
 ### 3.3 程序运行
 
 app 是小程序入口，本身并不包含外观页面
