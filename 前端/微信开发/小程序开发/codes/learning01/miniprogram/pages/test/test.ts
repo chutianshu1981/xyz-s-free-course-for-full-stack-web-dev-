@@ -7,6 +7,9 @@ Page({
     helloStr:"Hello world!",
     hiStr:""
   },
+  myData:{
+    // 这里的数据不参与前端展示
+  },
   // 事件处理函数
   clickBtn() {
     console.log("clickBtn onclick")
