@@ -1,5 +1,6 @@
 // app.ts
-App({
+App<IAppOption>({
+  globalData: {},
   onLaunch() {
     console.log("app onLauch");
   },

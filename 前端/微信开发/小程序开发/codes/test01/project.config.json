@@ -5,15 +5,15 @@
   },
   "miniprogramRoot": "miniprogram/",
   "compileType": "miniprogram",
-  "libVersion": "2.18.0",
-  "projectname": "learning01",
+  "libVersion": "2.15.0",
+  "projectname": "test01",
   "scripts": {
     "beforeCompile": "npm run tsc",
     "beforePreview": "npm run tsc",
     "beforeUpload": "npm run tsc"
   },
   "setting": {
-    "urlCheck": false,
+    "urlCheck": true,
     "es6": true,
     "enhance": true,
     "postcss": true,
@@ -21,7 +21,7 @@
     "minified": true,
     "newFeature": false,
     "coverView": true,
-    "nodeModules": true,
+    "nodeModules": false,
     "autoAudits": false,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
@@ -29,11 +29,8 @@
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
-    "compileHotReLoad": true,
-<<<<<<< HEAD
-=======
+    "compileHotReLoad": false,
     "lazyloadPlaceholderEnable": false,
->>>>>>> c67df06fc475213dd99d3b7ef6cfeea924d59258
     "useMultiFrameRuntime": true,
     "useApiHook": true,
     "useApiHostProcess": false,
