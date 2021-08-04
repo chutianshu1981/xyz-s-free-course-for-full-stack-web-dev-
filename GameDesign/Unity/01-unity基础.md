@@ -82,7 +82,13 @@ C# 编译器就是用来编写 C# 代码，并将其编译成机器可执行程�
 * 下载 visual studio community 2019/2021（免费社区版），安装
 * 或者在安装 unity 的同时，选择扩展工具中的 visual studio community 2019，安装
 
-### 4.2 创建并编写 hello world 项目
+### 4.2 创建并编写 hello world 
+
+1. 打开 unity hub 
+2. 新建 unity 项目，选择适合的 unity 版本
+3. 选择最简单的 2d 项目模板，新建
+4. 在 Hierarchy 窗口中选中 Main Camera ，在右侧为其添加组件 C# script ，并命名为 HelloWorld
+5. 双击 HelloWorld 脚本，会关联到 Visual Studio ，在其中编辑脚本如下：
 
 ``` C#
 using System.Collections;
@@ -110,3 +116,4 @@ public class HelloWorld : MonoBehaviour
 }
 
 ```
+6. 运行游戏，查看结果
