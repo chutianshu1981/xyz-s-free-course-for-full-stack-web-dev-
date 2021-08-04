@@ -3,5 +3,5 @@
   <label>{{helloStr}}</label>
   
   <label>{{hiStr}}</label>
-  <button bindtap="clickBtn">打招呼</button>
+  <van-button bindtap="clickBtn">打招呼</van-button>
 </view>
