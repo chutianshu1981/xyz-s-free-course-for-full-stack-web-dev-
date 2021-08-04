@@ -64,6 +64,6 @@ selenium-debug.log
 *.njsproj
 *.sln
 *.local
-
+**/Library
 package-lock.json
 yarn.lock
