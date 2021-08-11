@@ -19,6 +19,20 @@ BootStrap ：原指皮靴后面，用来穿靴子时，用手往上提时，拽�
 
 ## 2. 安装
 
+### 2.1 简单直接方式
+
+1. 添加 样式 库： CSS 库  
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+2. 添加 脚本 库： js 库  
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+### 2.2 HelloWorld
+
+见代码 [00_HelloWorld](https://gitee.com/chutianshu1981/xyz-s-free-course-for-full-stack-web-dev/tree/main/%E5%89%8D%E7%AB%AF/Boostrap/codes/00_HelloWorld)
+
+### 2.3 使用库管理工具 npm 和包管理工具 webpack
+
+
 ## 3. 前端构建工具
 
 ### 3.1 node.js
