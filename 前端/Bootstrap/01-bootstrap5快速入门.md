@@ -30,6 +30,13 @@ BootStrap ：原指皮靴后面，用来穿靴子时，用手往上提时，拽�
 
 见代码 [00_HelloWorld](https://gitee.com/chutianshu1981/xyz-s-free-course-for-full-stack-web-dev/tree/main/%E5%89%8D%E7%AB%AF/Boostrap/codes/00_HelloWorld)
 
+> 建议安装 vs CODE 插件：
+> * HTML Snippets
+> * JavaScript (ES6) code snippets
+> * Bootstrap 5 & Font Awesome Snippets
+> * Live Server  
+> 其他插件按照同学们自己需求安装
+
 ### 2.3 使用库管理工具 npm 和包管理工具 webpack
 
 
